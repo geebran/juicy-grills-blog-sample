@@ -2,10 +2,14 @@ body {
   font-family: verdana, sans-serif;
   margin: 0 auto;
   max-width: 600px;
+  background-color: #232323;
 }
 div {
   height: 300px;
   background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 20px;
 }
 .first {
   background: url("https://i.postimg.cc/638CYn5b/50482-640x428.jpg");
@@ -22,8 +26,20 @@ div {
 }
 h1 {
   text-align: center;
+  color: white;
+  font-size: 40px;
 }
 p {
   color: white;
-  background: rgba(0,0,0,0.5);
+  background-color: black;
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.2));
+  line-height: 20px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  text-align: justify;
+}
+.price {
+  float: right;
 }
